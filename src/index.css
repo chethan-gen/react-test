@@ -1,0 +1,46 @@
+/* Base Styles */
+body {
+  background-image: url('https://media.istockphoto.com/id/1414019774/vector/fire-smoke-and-sparks-on-black-background.jpg?s=612x612&w=0&k=20&c=XWtrBP5RVSJs1Mld8a_kyjzOnH8N80-ElmOJ-K3fJ-E='); /* Use the image URL */
+  background-size: cover; /* Makes the image cover the entire screen */
+  background-repeat: no-repeat; /* Prevents tiling of the image */
+  background-position: center; /* Centers the image */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+}
+
+/* Container Styles */
+h1, h2 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* Styling the Image */
+img {
+  display: block;
+  margin: 20px auto;
+  width: 150px; /* Set an appropriate size for the image */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
+}
+
+/* Heading Styles */
+h1 {
+  font-size: 2.5rem;
+  color: #c2d511; /* A bold blue for the name */
+}
+
+h2 {
+  font-size: 1.2rem;
+  color: #ac3c3c; /* Soft grey for other text */
+  margin: 5px 0;
+}
+
+/* Add Links Style */
+h2 a {
+  text-decoration: none; /* Removes underline */
+  color: #cbe122; /* Link color */
+  font-weight: bold;
+}
+
+h2 a:hover {
+  color: #a7d718; /* Darker blue on hover */
+}
